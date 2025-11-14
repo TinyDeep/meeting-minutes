@@ -214,25 +214,3 @@ We welcome contributions from the community! If you have any questions or sugges
 
 MIT License - Feel free to use this project for your own purposes.
 
-## Contributions
-
-Thanks for all the contributions. Our community is what makes this project possible. Below is the list of contributors:
-
-<a href="https://github.com/zackriya-solutions/meeting-minutes/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=zackriya-solutions/meeting-minutes" />
-</a>
-
-We welcome contributions from the community! If you have any questions or suggestions, please open an issue or submit a pull request. Please follow the established project structure and guidelines. For more details, refer to the [CONTRIBUTING](CONTRIBUTING.md) file.
-
-## Acknowledgments
-
-- We borrowed some code from [Whisper.cpp](https://github.com/ggerganov/whisper.cpp).
-- We borrowed some code from [Screenpipe](https://github.com/mediar-ai/screenpipe).
-- We borrowed some code from [transcribe-rs](https://crates.io/crates/transcribe-rs).
-- Thanks to **NVIDIA** for developing the **Parakeet** model.
-- Thanks to [istupakov](https://huggingface.co/istupakov/parakeet-tdt-0.6b-v3-onnx) for providing the **ONNX conversion** of the Parakeet model.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Zackriya-Solutions/meeting-minutes&type=Date)](https://star-history.com/#Zackriya-Solutions/meeting-minutes&Date)
-
