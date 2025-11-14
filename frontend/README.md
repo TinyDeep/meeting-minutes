@@ -65,7 +65,7 @@ A modern desktop application for recording, transcribing, and analyzing meetings
 
 2. Clone the repository and navigate to the frontend directory:
    ```bash
-   git clone https://github.com/Zackriya-Solutions/meeting-minutes
+   git clone https://github.com/TinyDeep/meeting-minutes
    cd meeting-minutes/frontend
    ```
   
