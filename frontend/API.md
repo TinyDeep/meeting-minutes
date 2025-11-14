@@ -83,25 +83,25 @@ const source = audioContext.createMediaStreamSource(stream);
 const processor = audioContext.createScriptProcessor(4096, 1, 1);
 
 // Send audio chunks
-// async function sendAudioChunk(audioData) {
-//     const formData = new FormData();
-//     formData.append('audio', new Blob([audioData], { 
-//         type: 'application/octet-stream' 
-//     }));
+async function sendAudioChunk(audioData) {
+    const formData = new FormData();
+    formData.append('audio', new Blob([audioData], { 
+        type: 'application/octet-stream' 
+    }));
 
-//     const response = await fetch('/stream', {
-//         method: 'POST',
-//         body: formData
-//     });
+    const response = await fetch('/stream', {
+        method: 'POST',
+        body: formData
+    });
 
-//     const result = await response.json();
-//     // Handle transcription results
-//     if (result.segments) {
-//         result.segments.forEach(segment => {
-//             console.log(`[${segment.t0}s - ${segment.t1}s]: ${segment.text}`);
-//         });
-//     }
-// }
+    const result = await response.json();
+    // Handle transcription results
+    if (result.segments) {
+        result.segments.forEach(segment => {
+            console.log(`[${segment.t0}s - ${segment.t1}s]: ${segment.text}`);
+        });
+    }
+}
 ```
 
 #### Rust Example
