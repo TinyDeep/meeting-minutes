@@ -4,30 +4,11 @@
         <br>
         Privacy-First AI Meeting Assistant
     </h1>
-    <a href="https://trendshift.io/repositories/13272" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13272" alt="Zackriya-Solutions%2Fmeeting-minutes | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-    <br>
-    <br>
-    <a href="https://github.com/Zackriya-Solutions/meeting-minutes/releases/"><img src="https://img.shields.io/badge/Pre_Release-Link-brightgreen" alt="Pre-Release"></a>
-    <a href="https://github.com/Zackriya-Solutions/meeting-minutes/releases"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/zackriya-solutions/meeting-minutes?style=flat">
-</a>
- <a href="https://github.com/Zackriya-Solutions/meeting-minutes/releases"> <img alt="GitHub Downloads (all assets, all releases)" src="https://img.shields.io/github/downloads/zackriya-solutions/meeting-minutes/total?style=plastic"> </a>
-    <a href="https://github.com/Zackriya-Solutions/meeting-minutes/releases"><img src="https://img.shields.io/badge/License-MIT-blue" alt="License"></a>
-    <a href="https://github.com/Zackriya-Solutions/meeting-minutes/releases"><img src="https://img.shields.io/badge/Supported_OS-macOS,_Windows-white" alt="Supported OS"></a>
-    <a href="https://github.com/Zackriya-Solutions/meeting-minutes/releases"><img alt="GitHub Tag" src="https://img.shields.io/github/v/tag/zackriya-solutions/meeting-minutes?include_prereleases&color=yellow">
-</a>
     <br>
     <h3>
     <br>
     Open Source • Privacy-First • Enterprise-Ready
     </h3>
-    <p align="center">
-    Get latest <a href="https://www.zackriya.com/meetily-subscribe/"><b>Product updates</b></a> <br><br>
-    <a href="https://meetily.zackriya.com"><b>Website</b></a> •
-    <a href="https://www.linkedin.com/company/106363062/"><b>LinkedIn</b></a> •
-    <a href="https://discord.gg/crRymMQBFH"><b>Meetily Discord</b></a> •
-    <a href="https://discord.com/invite/vCFJvN4BwJ"><b>Privacy-First AI</b></a> •
-    <a href="https://www.reddit.com/r/meetily/"><b>Reddit</b></a>
-</p>
     <p align="center">
 
  A privacy-first AI meeting assistant that captures, transcribes, and summarizes meetings entirely on your infrastructure. Built by expert AI engineers passionate about data sovereignty and open source solutions. Perfect for enterprises that need advanced meeting intelligence without compromising on privacy, compliance, or control.
@@ -97,7 +78,7 @@ Whether you're a defense consultant, enterprise executive, legal professional, o
 
 ### 🪟 **Windows**
 
-1. Download the latest `x64-setup.exe` from [Releases](https://github.com/Zackriya-Solutions/meeting-minutes/releases/latest)
+1. Download the latest `x64-setup.exe` from [Releases](https://github.com/TinyDeep/meeting-minutes/releases/latest)
 2. Right-click the downloaded file → **Properties** → Check **Unblock** → Click **OK**
 3. Run the installer (if Windows shows a security warning: Click **More info** → **Run anyway**)
 
@@ -132,7 +113,7 @@ Build from source following our detailed guides:
 **Quick start:**
 
 ```bash
-git clone https://github.com/Zackriya-Solutions/meeting-minutes
+git clone https://github.com/TinyDeep/meeting-minutes
 cd meeting-minutes/frontend
 pnpm install
 pnpm run tauri:build
